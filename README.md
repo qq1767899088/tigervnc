@@ -1,5 +1,5 @@
 ```
-mkdir ~/bvnc_x509vnc
+mkdir ~/bvnc_x509vnc \
 openssl req -new -newkey rsa:2048 -days 36500 -nodes -x509 -keyout ~/bvnc_x509vnc/key.yxf -out ~/bvnc_x509vnc/cert.yxf
 ```
 ```
